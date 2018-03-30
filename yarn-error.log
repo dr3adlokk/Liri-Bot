@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dr3ad\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\dr3ad\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dr3ad\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\HashiCorp\Vagrant\bin;C:\Users\dr3ad\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\dr3ad\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\dr3ad\AppData\Local\atom\bin;C:\Program Files (x86)\Nmap;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "liri-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dr3adlokk/Liri-Bot.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dr3adlokk/Liri-Bot/issues"
+    },
+    "homepage": "https://github.com/dr3adlokk/Liri-Bot#readme",
+    "dependencies": {
+      "dotenv": "^5.0.1",
+      "node-spotify-api": "^1.0.7",
+      "request": "^2.85.0",
+      "twitter": "^1.7.1"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\dr3ad\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92962:59)
+      at Object.<anonymous> (C:\Users\dr3ad\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:85927:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\dr3ad\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\dr3ad\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
