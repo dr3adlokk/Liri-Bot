@@ -57,7 +57,7 @@ function printMovieStats(bdy) {
 function twitterCall() {
   var Twitter = require("twitter");
   var client = new Twitter(keys.twitter);
-  var params = { screen_name: "John Mark" };
+  var params = { screen_name: "Johnnstufff" };
   client.get("statuses/user_timeline", params, function(
     error,
     tweets,
@@ -77,7 +77,7 @@ function spotifyCall(search) {
   var spotify = new Spotify(keys.spotify);
   spotify.search({ type: "track", query: search }, function(err, data) {
     if (err) {
-      spotify.search({ type: "track", query: "stealing cars" }, function(err, data) {
+      spotify.search({ type: "track", query: "cherry wine" }, function(err, data) {
         printSpotifyStats(data, 5);
       });
     } else {
