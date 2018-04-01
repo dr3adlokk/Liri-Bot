@@ -57,7 +57,7 @@ function printMovieStats(bdy) {
 function twitterCall() {
   var Twitter = require("twitter");
   var client = new Twitter(keys.twitter);
-  var params = { screen_name: "Johnnstufff" };
+  var params = { screen_name: "webstuffff" };
   client.get("statuses/user_timeline", params, function(
     error,
     tweets,
